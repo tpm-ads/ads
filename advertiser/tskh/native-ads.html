@@ -1,0 +1,255 @@
+<div id="adunit">
+    <div class="ads" id="ads">
+        <div class="ad ad-1" id="taw0">
+            <div class="attribution">QC</div>
+            <div class="image">
+                <a id="image-link" class="image-link" href="#landing_page#" target="_ blank">
+                    <img id="image-link-img" alt="" src="[image_link]"/>
+                </a>
+            </div>
+            <div class="title"><a id="title-link" class="title-link" href="#landing_page#" target="_ blank">[title_link]</a></div>
+            <div class="logo">
+                <a id="logo-link" class="logo-link" href="#landing_page#" target="_ blank">
+                    <img src="https://dongyhn.com/wp-content/uploads/2019/08/logo.png">
+                </a>
+            </div>
+            <div class="advertiser"><a id="advertiser-link" class="advertiser-link" href="#landing_page#"target="_ blank">dongyhn.com</a></div>
+            <div class="call-to-action"><a id="call-to-action-link" class="call-to-action-link" href="#landing_page#" target="_ blank">[call_to_action]</a></div>
+        </div>
+    </div>
+</div>
+<script>
+	const ads_objs = [
+		{
+			link: 'https://dongyhn.com/san-pham/giam-can/vien-dot-chay-mo-pham-gia-gold-3-45-vien?utm_source=gia_vang',
+			image : 'https://cdn.statically.io/gh/tpm-ads/ads/94413bac/advertiser/tskh/viem-dot-giam-mo-45.jpg',
+			title: '<b>KHÔNG CẦN</b> ăn kiêng, <b>GIẢM CÂN</b> an toàn tự nhiên',
+			call_to_action: 'Giải pháp ở đây'
+		},
+		{
+			link: 'https://dongyhn.com/san-pham/giam-can/vien-dot-chay-mo-pham-gia-gold-3-45-vien?utm_source=gia_vang',
+			image : 'https://s-img.mgid.com/g/4012906/492x328/0x0x492x328/aHR0cDovL2ltZ2hvc3RzLmNvbS90ZW1wLzIwMTgtMDMtMTgvMjQ0ODE0LzVmMmU3YzhiYjJhOTExZGVmMWUzZDBkZjZkNDFmNjQ4LmpwZz90PTE1MjEzODc5MzgyMjM*.webp',
+			title: '<b>BÉO</b> làm bạn thiếu tự tin, kiêng khem khổ sở mà không <b>GIẢM CÂN</b> bền',
+			call_to_action: 'Xem giải pháp ngay'
+		},
+		{
+			link: 'https://dongyhn.com/san-pham/giam-can/vien-dot-chay-mo-pham-gia-gold-3-45-vien?utm_source=gia_vang',
+			image : 'https://sohanews.sohacdn.com/thumb_w/660/2017/photo-1-1496917872364-86-0-396-499-crop-1496917885606.jpg',
+			title: 'Bạn đã quá chán với các loại thuốc giảm cân trôi nổi trên thị trường? Vòng bụng gấp 2 vòng mông? Đâu là giải pháp',
+			call_to_action: 'Xem giải pháp ngay'
+		}
+	];
+	let number_ads = ads_objs.length,
+		idx = Math.floor(Math.random() * number_ads ),
+		ads_obj = ads_objs[idx],
+		container = document.getElementById('adunit'),
+		container_content = container.innerHTML;
+	container.innerHTML = container_content.replace(/#landing_page#/g,ads_obj.link).replace('[image_link]',ads_obj.image).replace('[title_link]', ads_obj.title).replace('[call_to_action]', ads_obj.call_to_action);
+</script>
+<style>
+	.logo-link img {
+		width: 100%;
+	}
+    a {
+        color: #0000ff
+    }
+    
+    body,
+    table,
+    div,
+    ul,
+    li {
+        margin: 0;
+        padding: 0
+    }
+    
+    body {
+        font-family: -apple-system,BlinkMacSystemFont,segoe ui,Roboto,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol!important;
+    }
+    
+    #adunit {
+        overflow: hidden;
+        width: 300px;
+        height: 250px;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    
+    #adunit .ads .ad {
+        overflow: hidden;
+    }
+    
+    .attribution {
+        z-index: 999;
+    }
+    
+    #adunit #ads .image .image-link {
+        width: 300px;
+        height: 157px;
+        background-color: transparent;
+        position: relative;
+		overflow: hidden;
+    }
+    
+    body {
+        background-color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 12px
+    }
+    
+    .attribution {
+        background-color: #fff;
+        font-size: 13px;
+        top: 4px;
+        left: 4px;
+        padding-left: 3px;
+        padding-right: 3px;
+        border-radius: 2px;
+        position: absolute;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, .5)
+    }
+    
+    .image amp-img {
+        width: 100%
+    }
+    
+    .title {
+        padding-top: 4px;
+        padding-bottom: 4px;
+        padding-left: 8px;
+        padding-right: 8px;
+        min-height: 48px
+    }
+    
+    .title a {
+        color: #000;
+        text-decoration: none;
+        font-size: 14px
+    }
+    
+    .logo {
+        float: left;
+        padding-right: 4px;
+        padding-bottom: 8px;
+        padding-left: 8px;
+        width: 30px
+    }
+    
+    .logo amp-img {
+        height: 100%;
+        width: 100%
+    }
+    
+    .advertiser {
+        padding-top: 8px;
+        float: left
+    }
+    
+    .advertiser a {
+        color: #000;
+        text-decoration: none;
+        font-size: 12px;
+        font-weight: 500
+    }
+    
+    .call-to-action {
+        float: right;
+        padding-top: 8px;
+        padding-right: 6px
+    }
+    
+    .call-to-action a {
+        text-decoration: none;
+        color: #2196f3;
+        font-size: 14px;
+        font-weight: 700;
+        text-transform: uppercase
+    }
+    
+    .ads .image-link {
+        display: inline-block
+    }
+    
+    .ads .image-link img {
+        display: block;
+		width:100%;
+    }
+    
+    .reviews {
+        line-height: 0
+    }
+    
+    .body-link,
+    .body-link:hover,
+    .body-link:visited {
+        text-decoration: none;
+        color: inherit
+    }
+    
+    .abgc {
+        position: absolute;
+        z-index: 2147483646;
+        right: 0;
+        top: 0;
+    }
+    
+    .abgc amp-img,
+    .abgc img {
+        display: block;
+    }
+    
+    .abgs {
+        display: none;
+        position: absolute;
+        -webkit-transform: translateX(108px);
+        transform: translateX(108px);
+        right: 16px;
+        top: 0;
+    }
+    
+    .abgcp {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 31px;
+        height: 15px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .abgb {
+        position: relative;
+        margin-right: 16px;
+        top: 0;
+    }
+    
+    .abgc:hover .abgs {
+        -webkit-transform: none;
+        transform: none;
+    }
+    
+    .cbb {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 0;
+        cursor: pointer;
+        height: 15px;
+        width: 15px;
+        z-index: 9020;
+        padding-left: 16px;
+    }
+    
+    .btn {
+        display: inline-block;
+        border-radius: 2px;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 1px 3px rgba(0, 0, 0, 0.26);
+        cursor: pointer;
+        font-size: 0.7em;
+        margin: 0 1px 0.4em 1px;
+    }
+</style>
