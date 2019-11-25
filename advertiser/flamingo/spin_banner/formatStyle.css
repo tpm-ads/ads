@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#apps-ad {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#ad-banner {
+    width: 100%;
+    overflow: hidden;
+}
+.banner-content {
+    width: 100%;
+    margin: auto;
+}
+#banner-swiper {
+    /** iOS Safari Hack on responsive swiper */
+    width: 1px;
+    min-width: 100%;
+    *width: 100%;
+    /** iOS Safari Hack on responsive swiper */
+
+    height: 57%;
+    position: fixed;
+    top: 21%;
+    overflow: hidden;
+}
+.swiper-slide {
+    overflow: hidden;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    font-size: 18px;
+    background: #eee;
+    display: -webkit-flex;
+    display: flex;
+		-webkit-mask-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAIAAACQd1PeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAA5JREFUeNpiYGBgAAgwAAAEAAGbA+oJAAAAAElFTkSuQmCC);
+}

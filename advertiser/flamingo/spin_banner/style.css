@@ -1,0 +1,143 @@
+.banner-image {
+    width: 100%;
+}
+
+.swiper-slide {
+	overflow:hidden;
+	}
+
+.swiper-pagination, .swiper-button-prev, .swiper-button-next, .swiper-scrollbar {
+    display: none;
+}
+
+#logo {
+	position:absolute;
+	width:17.2%;
+	left: 0%;
+	top:0%;
+}
+
+#slide_0_bg {
+	position:absolute;
+	width: 200%;
+	left: -100%;
+	top:0%;
+}
+
+#click_area {
+	background-color:transparent;
+	position:absolute;
+	width: 100%;
+	height:100%;
+	left:0%;
+	top:0%;
+}
+
+#click_area2 {
+	background-color:transparent;
+	position:absolute;
+	width: 100%;
+	height:100%;
+	left:0%;
+	top:0%;
+}
+
+#beetle_ori {
+	position:absolute;
+	width: 77.0%;
+	left:11.5%;
+	top:35.2%;
+	transform:scale(0);
+	-webkit-transform:scale(0);
+}
+
+#txt_lines {
+	position:absolute;
+	width: 75.0%;
+	left: 12.5%;
+	top:81.1%;
+	opacity:0;
+}
+
+#beetle_ori2 {
+	position:absolute;
+	width: 70.4%;
+	left:14.8%;
+	top:37.6%;
+	opacity:0;
+}
+
+#beetle_ori3 {
+	position:absolute;
+	width: 72.9%;
+	left:13.5%;
+	top:37.6%;
+	opacity:0;
+}
+
+#beetle_ori4 {
+	position:absolute;
+	width: 92.8%;
+	left:3.5%;
+	top:37.6%;
+	opacity:0;
+}
+
+#beetle_ori5 {
+	position:absolute;
+	width: 91.7%;
+	left:4.1%;
+	top:37.6%;
+	opacity:0;
+}
+
+#txt_iconic {
+	position:absolute;
+	width: 51.6%;
+	left:24.2%;
+	top:81.1%;
+	opacity:0;
+}
+
+#txt_open {
+	position:absolute;
+	width: 65.0%;
+	left:17.5%;
+	top:21.6%;
+}
+
+/* ================== Video Start ================== */
+
+#video-container {
+	position: absolute;
+    width: 95.6%;
+	height:40.3%;
+    display: block;
+    z-index: 1200;
+    left: 2.2%;
+    top: 39.9%;
+}
+
+
+/* ================== Video End ================== */
+
+#cta {
+	position:absolute;
+	width: 51.1%;
+	left:24.5%;
+	top:89%;
+	animation:loop_cta 1s linear infinite;
+	-webkit-animation:loop_cta 1s linear infinite;
+}
+
+@keyframes loop_cta {
+	0% {transform:scale(1);}
+	50% {transform:scale(0.8);}
+	100% {transform:scale(1);}
+	}
+	
+@-webkit-keyframes loop_cta {
+	0% {-webkit-transform:scale(1);}
+	50% {-webkit-transform:scale(0.8);}
+	100% {-webkit-transform:scale(1);}
+	}

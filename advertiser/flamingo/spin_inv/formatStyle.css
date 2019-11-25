@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+#apps-ad {
+    width: 100%;
+    overflow: hidden;
+}
+
+#ad-invitation {
+    width: 100%;
+    height: 25%;
+    overflow: hidden;
+}
+#invitation-content {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    top: 0;
+}
+.invitation-spin-img {
+    vertical-align: middle;
+		width: 100%;
+}
+
+.floating-content {
+	position:absolute;
+	width:100%;
+	height:0;
+	padding-bottom:100%;
+	pointer-events:none;
+	overflow:hidden;
+	z-index:100;
+}
+.floating-content * {
+		pointer-events:none;
+}
+.floating-on-top {
+		z-index:100;
+}
+
+/* This is temporary iOS workaround to fix iOS scroll event blocking touch events. */
+#ios-workaround {
+    width: 1px;
+    height: 1px;
+    border: none;
+    overflow: hidden;
+}
