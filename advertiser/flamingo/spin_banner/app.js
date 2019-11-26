@@ -146,9 +146,9 @@ function embedAutoplayVideo() {
         'video-container',
         'video1',
         {
-            webm: 'video1.webm',
-            mp4: 'video1.mp4',
-            mpg: 'video1.mpg',
+            webm: 'https://phunudoday.com/clients/flamingo/spin_banner/video1.webm',
+            mp4: 'https://phunudoday.com/clients/flamingo/spin_banner/video1.mp4',
+            mpg: 'https://phunudoday.com/clients/flamingo/spin_banner/video1.mpg',
             poster: 'video1.jpg',
             autoplay: false,
             loop: false,
